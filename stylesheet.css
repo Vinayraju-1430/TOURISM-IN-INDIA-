@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #f0f2f5; /* Light background color */
+}
+
+.navbar {
+    background-color: #5883b1;
+}
+
+.text-1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white !important;
+    padding-top: 10px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 7px;
+    background: #0e84df;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top:2px;
+    height:40px;
+    border-radius:10px;
+    text-align: end;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example input[type=text] {
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    margin-top:2px;
+    background: #f1f1f1;
+
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.text-2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(101, 40, 40) !important;
+    margin-bottom: 1px;
+    background-color: #5883b1;
+}
+
+.container-fluid .card {
+    margin-bottom: 30px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-fluid .card-body {
+    background: linear-gradient(to bottom, #fff, #f0f0f0);
+    padding: 20px;
+}
+
+.container-fluid .card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.container-fluid .card-text {
+    font-size: 1em;
+    color: #777;
+}
+
+.container-fluid .card .btn-primary {
+background-color: #ff5722;
+    border-color: #ff5722;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.container-fluid .card .btn-primary:hover {
+    background-color: #e64a19;
+    box-shadow: 0 4px 8px rgba(255, 87, 34, 0.3);
+}
+
+.container-fluid .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+
+body {
+    background: linear-gradient(to right, #e0eafc, #5377a8);
+}
+
+.card-title {
+    color: #3d5a80;
+}
+
+.card-text {
+    color: #5a5a5a;
+}
+
+marquee {
+  
+    padding: 7px;
+}
+.dropdown-item{
+    font-size: 1.2em;
+}
+
+
+
+  

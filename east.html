@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East India - India Tourist Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS styles for equal card and image sizes */
+        .card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px; /* Set a fixed height for card images */
+        }
+
+        .card-body {
+            flex: 1; /* Allow the card body to take up remaining space */
+        }
+
+        .gallery img {
+            object-fit: cover;
+            height: 200px; /* Set a fixed height for gallery images */
+            width: 100%; /* Make sure images cover their containers */
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="container-fluid p-0">
+        <div class="hero" style="background-image: url('https://media.istockphoto.com/id/1945003845/photo/assamese-traditional-food-items-with-gamusa-or-gamosa.webp?b=1&s=612x612&w=0&k=20&c=BtPx9G40kLMDdiNuUoyuI_99B6JQ22NKukpZd2it15E='); height: 400px; background-size: cover; background-position: center;">
+            <div class="overlay d-flex align-items-center justify-content-center" style="height: 100%; background: rgba(0, 0, 0, 0.5);">
+                <h1 class="text-white">East India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <h2>About East India</h2>
+        <p>East India is known for its cultural diversity, lush landscapes, and historical significance. The region is home to the tea gardens of Assam, the temples of Odisha, and the vibrant city of Kolkata. Most popular tourist destinations for this region are Calcutta, former capital of India, Puri & Bhubaneshwar, Buddhist Circuit in Bihar, monasteries in Sikkim, Kanchenjunga Range of Mountains in Darjeeling, etc.</p>
+
+        <h3>Top Tourist Destinations</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1045841548/photo/tiger-drinking-water-from-river.webp?b=1&s=612x612&w=0&k=20&c=soTEmk135nwrjApcMr2lDujyS-gB8YWYQR_FpA81-C0=" class="card-img-top" alt="Sundarbans">
+                    <div class="card-body">
+                        <h5 class="card-title">Sundarbans</h5>
+                        <p class="card-text">The Sundarbans is the largest mangrove forest in the world, home to the Royal Bengal Tiger and rich biodiversity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1480285360/photo/the-suns-rays-penetrate-the-columns-in-the-karnak-temple.webp?b=1&s=612x612&w=0&k=20&c=XMpK4gOIrgAVAE-aUR5XETSZzb1gysVFlKJzaisALO4=" class="card-img-top" alt="Konark Sun Temple">
+                    <div class="card-body">
+                        <h5 class="card-title">Konark Sun Temple</h5>
+                        <p class="card-text">The Konark Sun Temple in Odisha is an architectural marvel and a UNESCO World Heritage Site, renowned for its intricate carvings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1164386039/photo/howrah-bridge-on-river-ganges-at-kolkata-at-twilight-with-moody-sky.webp?b=1&s=612x612&w=0&k=20&c=5OPkWdzFlgNN_CV2fAc8S6tSdBocgW2hZuzrJW-9Kdo=" class="card-img-top" alt="Kolkata">
+                    <div class="card-body">
+                        <h5 class="card-title">Kolkata</h5>
+                        <p class="card-text">Kolkata, the "City of Joy," is known for its rich history, vibrant culture, and colonial architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-5">Gallery</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="https://media.istockphoto.com/id/867757922/photo/collage-of-india-images-travel-background.webp?b=1&s=612x612&w=0&k=20&c=jKXSR9zMTh4uvEh3-1q_cVYy1v2MoulYYFM9HmIwxMY=" class="img-fluid" alt="East India Image 1">
+            </div>
+            <div class="col-md-3">
+                <img src="https://media.istockphoto.com/id/1343698772/photo/ancient-stone-chariot-with-archaeological-ruins-in-the-courtyard-of-vittala-temple-at-hampi.webp?b=1&s=612x612&w=0&k=20&c=qM562uYasKBRCyGIzx5sCtPbd_lDVz7xy-21QlEGGb0=" class="img-fluid" alt="East India Image 2">
+            </div>
+            <div class="col-md-3">
+                <img src="https://media.istockphoto.com/id/539018660/photo/taj-mahal-hotel-and-gateway-of-india.webp?b=1&s=612x612&w=0&k=20&c=ybzXAdMWOV8LXwgCwEPNSv9tGIjuLmaO1D05v8omrJs=" class="img-fluid" alt="East India Image 3">
+            </div>
+            <div class="col-md-3">
+                <img src="https://media.istockphoto.com/id/1220637403/photo/man-resting-on-the-white-sand-beach-with-beautiful-palm-trees.webp?b=1&s=612x612&w=0&k=20&c=lkt4aTT3FtpFgIOd9mNLQf49DpQSAans79mcYcNM-Y8=" class="img-fluid" alt="East India Image 4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 India Tourist Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
